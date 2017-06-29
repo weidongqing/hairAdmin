@@ -1,0 +1,133 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "vuwe",
+        "scope": null,
+        "escapedName": "vuwe",
+        "name": "vuwe",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/var/www/html/mySummery/lib"
+    ]
+  ],
+  "_from": "vuwe@latest",
+  "_id": "vuwe@0.1.5",
+  "_inCache": true,
+  "_location": "/vuwe",
+  "_nodeVersion": "7.3.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/vuwe-0.1.5.tgz_1482840732915_0.4181227763183415"
+  },
+  "_npmUser": {
+    "name": "jrainlau",
+    "email": "jrainlau@163.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "vuwe",
+    "scope": null,
+    "escapedName": "vuwe",
+    "name": "vuwe",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npmjs.org/vuwe/-/vuwe-0.1.5.tgz",
+  "_shasum": "2074b4b79368a9527c94c2eec6e6cba8d3350044",
+  "_shrinkwrap": null,
+  "_spec": "vuwe",
+  "_where": "/var/www/html/mySummery/lib",
+  "author": {
+    "name": "Jrain Lau"
+  },
+  "dependencies": {
+    "fastclick": "^1.0.6",
+    "vue": "^2.1.0",
+    "vue-router": "^2.1.1"
+  },
+  "description": "WeUI for VueJS2",
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "babel-core": "^6.0.0",
+    "babel-eslint": "^7.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "babel-register": "^6.0.0",
+    "chalk": "^1.1.3",
+    "connect-history-api-fallback": "^1.1.0",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.7.1",
+    "eslint-config-standard": "^6.1.0",
+    "eslint-friendly-formatter": "^2.0.5",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-html": "^1.3.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.13.3",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "function-bind": "^1.0.2",
+    "html-webpack-plugin": "^2.8.1",
+    "http-proxy-middleware": "^0.17.2",
+    "json-loader": "^0.5.4",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "opn": "^4.0.2",
+    "ora": "^0.3.0",
+    "semver": "^5.3.0",
+    "shelljs": "^0.7.4",
+    "url-loader": "^0.5.7",
+    "vue-loader": "^10.0.0",
+    "vue-style-loader": "^1.0.0",
+    "vue-template-compiler": "^2.1.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.8.3",
+    "webpack-hot-middleware": "^2.12.2",
+    "webpack-merge": "^0.14.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "2074b4b79368a9527c94c2eec6e6cba8d3350044",
+    "tarball": "https://registry.npmjs.org/vuwe/-/vuwe-0.1.5.tgz"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "gitHead": "a9ffb1334e3181fc6777dcc06a5e806cbff20d19",
+  "keywords": [
+    "vue2",
+    "weui",
+    "vuwe"
+  ],
+  "license": "MIT",
+  "main": "dist/vuwe.js",
+  "maintainers": [
+    {
+      "name": "jrainlau",
+      "email": "jrainlau@163.com"
+    }
+  ],
+  "name": "vuwe",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "node build/build.js",
+    "build-demo": "node build/build.demo.js",
+    "dev": "node build/dev-server.js",
+    "lint": "eslint --ext .js,.vue src"
+  },
+  "version": "0.1.5"
+}
